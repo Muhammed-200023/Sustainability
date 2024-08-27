@@ -1,0 +1,25 @@
+.custom-tabs .ant-tabs-nav {
+    background-color: #014D4E;
+    height: 45px;
+    border-radius: 15px 15px 0 0; /* Rounded corners on the top left and top right */
+    /* overflow: hidden;  */
+}
+
+.custom-tabs .ant-tabs-tab {
+    color: white !important;
+    font-size: 18px; /* Adjust font size as needed */
+    padding: 0 20px !important; /* Padding inside each tab */
+    margin: 0 !important;
+}
+
+.custom-tabs .ant-tabs-tab-active {
+    color: white !important;
+}
+
+.custom-tabs .ant-tabs-nav .ant-tabs-tab {
+    border-bottom: none;
+}
+
+
+
+
