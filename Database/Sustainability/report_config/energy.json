@@ -1,0 +1,106 @@
+{
+    "_id": {
+      "$oid": "66f3e0eb8c05f696612c768d"
+    },
+    "id": "energy_report_id",
+    "pillar_id": "energy_pillar",
+    "pillarName": "Energy",
+    "year": "2024",
+    "questions": [
+      {
+        "question_id": "qstn_id_1",
+        "question": "Are you using low-carbon or renewable energy?",
+        "text": "We have installed a <field_id_1> project in <field_id_2> which is expected to generate <field_id_3> Kilowatt of energy annually for <field_id_4> years.",
+        "inputFields": [
+          {
+            "inputId": "field_id_1",
+            "label": "Energy Source",
+            "inputType": "dropdown",
+            "options": [
+              "Solar Energy",
+              "Wind Energy",
+              "Hydropower"
+            ],
+            "isMandatory": true
+          },
+          {
+            "inputId": "field_id_2",
+            "label": "Location",
+            "inputType": "dropdown",
+            "options": [
+              "Supply chain",
+              "Manufacturing unit"
+            ],
+            "isMandatory": true
+          },
+          {
+            "inputId": "field_id_3",
+            "label": "Generated Energy (Kilowatt)",
+            "inputType": "number",
+            "isMandatory": true,
+            "minValue": "",
+            "maxValue": ""
+          },
+          {
+            "inputId": "field_id_4",
+            "label": "Duration (Years)",
+            "inputType": "dropdown",
+            "options": [
+              "16-20",
+              "21-25"
+            ],
+            "isMandatory": true
+          }
+        ]
+      },
+      {
+        "question_id": "qstn_id_2",
+        "question": "Is your company implementing any energy efficiency or conservation projects?",
+        "text": "We are implementing a <field_id_1> project in <field_id_2> that is expected to reduce energy consumption by <field_id_3>%.",
+        "inputFields": [
+          {
+            "inputId": "field_id_1",
+            "label": "projectName",
+            "inputType": "text",
+            "isMandatory": true
+          },
+          {
+            "inputId": "field_id_2",
+            "label": "projectLocation",
+            "inputType": "text",
+            "isMandatory": true
+          },
+          {
+            "inputId": "field_id_3",
+            "label": "percentageReduction",
+            "inputType": "number",
+            "isMandatory": true
+          }
+        ]
+      },
+      {
+        "question_id": "qstn_id_3",
+        "question": "Do you have any other energy saving initiatives to be reported?",
+        "text": "We conducted an audit at <field_id_1> which identified opportunities to save <field_id_2> annually.",
+        "inputFields": [
+          {
+            "inputId": "field_id_1",
+            "label": "auditLocation",
+            "inputType": "dropdown",
+            "options": [
+              "Office",
+              "Factory",
+              "Warehouse"
+            ],
+            "isMandatory": true
+          },
+          {
+            "inputId": "field_id_2",
+            "label": "potentialSavings",
+            "inputType": "number",
+            "isMandatory": true
+          }
+        ]
+      }
+    ]
+  }

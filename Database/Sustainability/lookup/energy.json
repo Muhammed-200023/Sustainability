@@ -1,0 +1,117 @@
+{
+    "_id": {
+      "$oid": "66f411b58c05f696612c7691"
+    },
+    "pillar_id": "energy_pillar",
+    "pillarName": "Energy",
+    "question": [
+      {
+        "formulaId": "Formula_1",
+        "formula": "field_id_3 * referenceValue",
+        "questionId": "qstn_id_1",
+        "lookup": [
+          {
+            "field_id_1": "Solar Energy",
+            "field_id_2": "Supply chain",
+            "field_id_4": "16-20",
+            "referenceValue": "0.1"
+          },
+          {
+            "field_id_1": "Solar Energy",
+            "field_id_2": "Supply chain",
+            "field_id_4": "21-25",
+            "referenceValue": "0.2"
+          },
+          {
+            "field_id_1": "Solar Energy",
+            "field_id_2": "Manufacturing unit",
+            "field_id_4": "16-20",
+            "referenceValue": "0.3"
+          },
+          {
+            "field_id_1": "Solar Energy",
+            "field_id_2": "Manufacturing unit",
+            "field_id_4": "21-25",
+            "referenceValue": "0.4"
+          },
+          {
+            "field_id_1": "Wind Energy",
+            "field_id_2": "Supply chain",
+            "field_id_4": "16-20",
+            "referenceValue": "0.5"
+          },
+          {
+            "field_id_1": "Wind Energy",
+            "field_id_2": "Supply chain",
+            "field_id_4": "21-25",
+            "referenceValue": "0.6"
+          },
+          {
+            "field_id_1": "Wind Energy",
+            "field_id_2": "Manufacturing unit",
+            "field_id_4": "16-20",
+            "referenceValue": "0.7"
+          },
+          {
+            "field_id_1": "Wind Energy",
+            "field_id_2": "Manufacturing unit",
+            "field_id_4": "21-25",
+            "referenceValue": "0.8"
+          },
+          {
+            "field_id_1": "Hydropower",
+            "field_id_2": "Supply chain",
+            "field_id_4": "16-20",
+            "referenceValue": "0.9"
+          },
+          {
+            "field_id_1": "Hydropower",
+            "field_id_2": "Supply chain",
+            "field_id_4": "21-25",
+            "referenceValue": "0.10"
+          },
+          {
+            "field_id_1": "Hydropower",
+            "field_id_2": "Manufacturing unit",
+            "field_id_4": "16-20",
+            "referenceValue": "0.11"
+          },
+          {
+            "field_id_1": "Hydropower",
+            "field_id_2": "Manufacturing unit",
+            "field_id_4": "21-25",
+            "referenceValue": "0.12"
+          }
+        ]
+      },
+      {
+        "formulaId": "Formula_2",
+        "formula": "field_id_1 * field_id_2 * field_id_3 * referenceValue",
+        "questionId": "qstn_id_2",
+        "lookup": [
+          {
+            "referenceValue": "0.13"
+          }
+        ]
+      },
+      {
+        "formulaId": "Formula_3",
+        "formula": "field_id_2 * referenceValue",
+        "questionId": "qstn_id_3",
+        "lookup": [
+          {
+            "field_id_1": "Office",
+            "referenceValue": "0.14"
+          },
+          {
+            "field_id_1": "Factory",
+            "referenceValue": "0.15"
+          },
+          {
+            "field_id_1": "Warehouse",
+            "referenceValue": "0.16"
+          }
+        ]
+      }
+    ]
+  }

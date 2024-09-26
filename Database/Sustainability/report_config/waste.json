@@ -1,0 +1,73 @@
+{
+    "_id": {
+      "$oid": "66f3e1308c05f696612c768e"
+    },
+    "id": "waste_report_id",
+    "pillarName": "Waste",
+    "year": "2024",
+    "tables": [
+      {
+        "question_id": "qstn_id_1",
+        "table_id": "tableId001",
+        "note": "Please share details of  waste materials used:",
+        "labels": [
+          "Material",
+          "Source Reduced",
+          "Recycled",
+          "Land Filled",
+          "Combusted",
+          "Total Emissions"
+        ],
+        "rowInputs": [
+          {
+            "inputId": "field_id_1",
+            "label": "Material",
+            "inputType": "dropdown",
+            "options": [
+              "Food",
+              "Plastic",
+              "Electronic",
+              "Glass"
+            ],
+            "isMandatory": true
+          },
+          {
+            "inputId": "field_id_2",
+            "label": "Source Reduced",
+            "inputType": "number",
+            "unit": "MT",
+            "isMandatory": true
+          },
+          {
+            "inputId": "field_id_3",
+            "label": "Recycled",
+            "inputType": "number",
+            "unit": "MT",
+            "isMandatory": true
+          },
+          {
+            "inputId": "field_id_4",
+            "label": "Land Filled",
+            "inputType": "number",
+            "unit": "MT",
+            "isMandatory": true
+          },
+          {
+            "inputId": "field_id_5",
+            "label": "Combusted",
+            "inputType": "number",
+            "unit": "MT",
+            "isMandatory": true
+          },
+          {
+            "inputId": "field_id_6",
+            "label": "Total Emissions",
+            "inputType": "number",
+            "unit": "MT",
+            "isMandatory": true
+          }
+        ]
+      }
+    ],
+    "pillar_id": "waste_pillar"
+  }

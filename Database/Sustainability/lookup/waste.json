@@ -1,0 +1,32 @@
+{
+    "_id": {
+      "$oid": "66f414a28c05f696612c7692"
+    },
+    "pillar_id": "waste_pillar",
+    "pillarName": "Waste",
+    "question": [
+      {
+        "formulaId": "Formula_1",
+        "formula": "field_id_2 * field_id_3 * field_id_4 * field_id_5 * referenceValue",
+        "questionId": "qstn_id_1",
+        "lookup": [
+          {
+            "field_id_1": "Food",
+            "referenceValue": "1"
+          },
+          {
+            "field_id_1": "Plastic",
+            "referenceValue": "1.1"
+          },
+          {
+            "field_id_1": "Electronic",
+            "referenceValue": "1.2"
+          },
+          {
+            "field_id_1": "Glass",
+            "referenceValue": "1.3"
+          }
+        ]
+      }
+    ]
+  }
